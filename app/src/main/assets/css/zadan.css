@@ -1,0 +1,385 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.dark {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*background-color: rgba(0,0,0,0.3);*/
+    background: black;
+    z-index: 999;
+}
+
+.game {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    padding-top: 0.6rem;
+}
+
+.title {
+    width: 78%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title img:first-child {
+    width: 90%;
+}
+
+.title img:last-child {
+    width: 0.5rem;
+    position: absolute;
+    top: 0;
+    right: -0.2rem;
+}
+
+.egg {
+    width: 85%;
+    margin: -1.9rem auto;
+    position: relative;
+}
+
+.egg img:first-child {
+    width: 100%;
+}
+
+.egg .egg_body {
+    width: 34%;
+    position: absolute;
+    top: 35%;
+    left: 34%;
+    animation: move 2s 1s linear infinite normal;
+    /*transform: rotate(0deg) translate(0, 0);*/
+}
+
+.egg .egg_half {
+    width: 34%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.egg .gift {
+    width: 18%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.egg .light {
+    width: 75%;
+    position: absolute;
+    top: 20%;
+    left: 12.5%;
+}
+
+.egg .mat {
+    width: 34%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.egg img:last-child {
+    width: 24%;
+    position: absolute;
+    top: 30%;
+    right: 13%;
+    animation: move2 2s ease-in-out infinite reverse;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 23%;
+    padding-left: 0.15rem;
+}
+
+.left>div {
+    width: 1.5rem;
+    height: 0.42rem;
+    border: 0.01rem solid #96969a;
+    border-radius: 0.4rem;
+    position: relative;
+    color: #96969a;
+    margin-bottom: 0.4rem;
+}
+
+.left .icon {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    border: 0.01rem solid #96969a;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.left .icon img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left .text {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.24rem;
+    margin-left: 0.45rem;
+    text-align: left;
+}
+
+.money {
+    width: 65%;
+    margin: 0.8rem auto 0.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.money .money_left {
+    display: flex;
+}
+
+.money .money_left img {
+    width: 0.32rem;
+    height: 0.32rem;
+}
+
+.money .money_left .text {
+    font-size: 0.28rem;
+    margin-left: 0.1rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.money .money_right {
+    display: flex;
+}
+
+.money .money_right img {
+    width: 0.32rem;
+    height: 0.32rem;
+}
+
+.money .money_right .text {
+    font-size: 0.3rem;
+    margin-left: 0.2rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+.money .money_right .text .yellow {
+    color: #FFD363;
+    margin-left: 0.2rem;
+}
+
+.time {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time>div {
+    width: 1.7rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    font-size: 0.3rem;
+}
+
+.time .one {
+    background-image: url("../img/one.png");
+    background-size: 100% 100%;
+}
+
+.time .ten {
+    background-image: url("../img/ten.png");
+    background-size: 100% 100%;
+}
+
+.time .twenty {
+    background-image: url("../img/twenty.png");
+    background-size: 100% 100%;
+}
+
+.bottom {
+    width: 90%;
+    height: 4rem;
+    margin: 0 auto;
+    border: 0.08rem solid #723686;
+    background: #26153C;
+    position: fixed;
+    bottom: 0.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0.2rem;
+}
+
+.bottom .close {
+    width: 0.5rem;
+    position: absolute;
+    top: -0.8rem;
+    right: 0.1rem;
+}
+
+.bottom .result {
+    font-size: 0.32rem;
+    color: #EE7BF2;
+    margin-top: 0.2rem;
+}
+
+.bottom .gift_content {
+    width: 30%;
+}
+
+.bottom .gift_content .gift {
+    width: 58%;
+}
+
+.bottom .gift_content .text {
+    width: 125%;
+    display: flex;
+    font-size: 0.24rem;
+    color: #E8E8E8;
+}
+
+.bottom .gift_content .text div {
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+
+.bottom .gift_content .text img {
+    height: 0.4rem;
+    margin: 0 0.2rem 0 0.1rem;
+}
+
+.bottom .gift_content .amount {
+    width: 125%;
+    font-size: 0.24rem;
+    color: #FFD630;
+}
+
+.bottom .number {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom .number>div {
+    width: 2rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    font-size: 0.3rem;
+}
+
+.bottom .number .ten {
+    background-image: url("../img/ten.png");
+    background-size: 100% 100%;
+}
+
+.bottom .number .twenty {
+    background-image: url("../img/twenty.png");
+    background-size: 100% 100%;
+}
+
+.small-font {
+    transform: scale(0.80);
+    transform-origin: 0 0;
+    -ms-transform: scale(0.80);
+    /* IE 9 */
+    -ms-transform-origin: 0 0;
+    /* IE 9 */
+    -webkit-transform: scale(0.80);
+    /* Safari 和 Chrome */
+    -webkit-transform-origin: 0 0;
+    /* Safari 和 Chrome */
+    -moz-transform: scale(0.80);
+    /* Firefox */
+    -moz-transform-origin: 0 0;
+    /* Firefox */
+    -o-transform: scale(0.80);
+    /* Opera */
+    -o-transform-origin: 0 0;
+    /* Opera */
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: center bottom;
+    }
+    25% {
+        transform: rotate(8deg);
+        transform-origin: center bottom;
+    }
+    50% {
+        transform: rotate(0deg);
+        transform-origin: center bottom;
+    }
+    75% {
+        transform: rotate(-8deg);
+        transform-origin: center bottom;
+    }
+    100% {
+        transform: rotate(0deg);
+        transform-origin: center bottom;
+    }
+}
+
+@keyframes move2 {
+    0% {
+        top: 30%;
+        right: 13%;
+    }
+    40% {
+        top: 25%;
+        right: 8%;
+    }
+    /* 50% {
+        top: 21%;
+        right: 0%;
+    } */
+    /* 75% {
+        top: 25%;
+        right: 8%;
+    } */
+    100% {
+        top: 30%;
+        right: 13%;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    25% {
+        -webkit-transform: rotate(90deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+    75% {
+        -webkit-transform: rotate(270deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}

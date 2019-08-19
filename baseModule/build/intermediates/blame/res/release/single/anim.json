@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_tooltip_exit.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/anim_out.xml",
+        "source": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/src/main/res/anim/anim_out.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/anim_in.xml",
+        "source": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/src/main/res/anim/anim_in.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_tooltip_enter.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/rotate_animation.xml",
+        "source": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/src/main/res/anim/rotate_animation.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/anim/abc_slide_out_bottom.xml"
+    }
+]

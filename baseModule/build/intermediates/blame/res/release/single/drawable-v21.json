@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/23faf6dee47733556ae98ad97dc19f24/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/nanzhang/AndroidStudioProjects/test/baseModule/build/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/nanzhang/.gradle/caches/transforms-2/files-2.1/ea543e66a1ff1469e660f16d4e35e684/res/drawable-v21/abc_list_divider_material.xml"
+    }
+]

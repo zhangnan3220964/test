@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../js/flex.js"></script>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/zepto.fx.js"></script>
+    <script src="../js/anime.min.js"></script>
+    <link rel="stylesheet" href="../css/zadan.css">
+    <script src="../js/zadan.js"></script>
+</head>
+
+<body>
+    <div class="content" style="color: #fff;text-align: center">
+        <div class="dark"></div>
+        <div class="game">
+            <div class="title">
+                <img src="../img/title.png" alt="">
+                <img src="../img/close.png" alt="">
+            </div>
+            <div class="egg">
+                <img src="../img/egg_down.png" alt="">
+                <img src="../img/egg.png" alt="" class="egg_body" id="egg_body">
+                <img src="../img/egg_half.png" alt="" class="egg_half" style="display: none" id="egg_half">
+                <img src="../img/egg_middle.png" alt="" class="mat">
+                <img src="../img/light.png" alt="" class="light" style="display: none" id="light">
+                <img src="../img/2.png" alt="" class="gift" style="display: none" id="gift">
+                <img src="../img/hammer.png" alt="" id="hammer">
+            </div>
+            <div class="left">
+                <div>
+                    <div class="icon">
+                        <img src="../img/left1.png" alt="" style="width: 0.1rem;height: 0.18rem">
+                    </div>
+                    <div class="text small-font">规则</div>
+                </div>
+                <div>
+                    <div class="icon">
+                        <img src="../img/left2.png" alt="" style="width: 0.2rem;height: 0.18rem">
+                    </div>
+                    <div class="text small-font">排行榜</div>
+                </div>
+                <div>
+                    <div class="icon">
+                        <img src="../img/left3.png" alt="" style="width: 0.18rem;height: 0.23rem">
+                    </div>
+                    <div class="text small-font">中奖记录</div>
+                </div>
+                <div>
+                    <div class="icon">
+                        <img src="../img/left4.png" alt="" style="width: 0.2rem;height: 0.18rem">
+                    </div>
+                    <div class="text small-font">本期奖池</div>
+                </div>
+            </div>
+            <div class="money">
+                <div class="money_left" id="switch">
+                    <img src="../img/true.png" alt="" id="open">
+                    <img src="../img/false.png" alt="" id="close" style="display: none">
+                    <div class="text small-font">动态效果开启</div>
+                </div>
+                <div class="money_right">
+                    <img src="../img/dou.png" alt="">
+                    <div class="text small-font">
+                        <span>0</span>
+                        <span class="yellow">充值</span>
+                    </div>
+                </div>
+            </div>
+            <div class="time" id="time">
+                <div class="one" number='1'>1次</div>
+                <div class="ten" number='10'>10次</div>
+                <div class="twenty" number='20'>10次</div>
+            </div>
+            <div class="bottom" style="display: none" id="result">
+                <img src="../img/close.png" alt="" class="close" id="cha">
+                <div class="result">抽奖结果</div>
+                <div class="gift_content">
+                    <img src="../img/2.png" alt="" class="gift">
+                    <div class="text small-font">
+                        <div style="width: 0.8rem;margin-left: 0.2rem">棒棒糖</div>
+                        <img src="../img/dou.png" alt="">
+                        <div style="width: 0.4rem">0.1</div>
+                    </div>
+                    <div class="amount small-font">x20</div>
+                </div>
+                <div class="number">
+                    <div class="ten">10次</div>
+                    <div class="twenty">50次</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
